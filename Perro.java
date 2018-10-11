@@ -1,12 +1,12 @@
 /**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  * $Id: Perro.java,v 1.7 2010/03/29 20:47:53 lr.ruiz114 Exp $ 
- * Universidad de los Andes (Bogot· - Colombia)
- * Departamento de IngenierÌa de Sistemas y ComputaciÛn 
+ * Universidad de los Andes (Bogot√° - Colombia)
+ * Departamento de Ingenier√≠a de Sistemas y Computaci√≥n 
  * Licenciado bajo el esquema Academic Free License version 2.1 
  *
  * Proyecto Cupi2 (http://cupi2.uniandes.edu.co)
  * Ejercicio: n7_exposicionCanina 
- * Autor: Mario S·nchez - 26/08/2005 
+ * Autor: Mario S√°nchez - 26/08/2005 
  * Modificado por: Daniel Romero- 30/06/2006
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
  */
@@ -27,9 +27,6 @@ public class Perro
     // Atributos
     // -----------------------------------------------------------------
 
-    /**
-     * El nombre del perro
-     */
     private String nombre;
 
     /**
@@ -43,7 +40,7 @@ public class Perro
     private String imagen;
 
     /**
-     * Los puntos del perro en la exposiciÛn
+     * Los puntos del perro en la exposici√≥n
      */
     private int puntos;
 
@@ -57,8 +54,8 @@ public class Perro
     // -----------------------------------------------------------------
 
     /**
-     * Construye un nuevo perro con los par·metros indicados. <br>
-     * <b>post: </b> Se construyÛ un perro con los par·metros especificados.
+     * Construye un nuevo perro con los par√°metros indicados. <br>
+     * <b>post: </b> Se construy√≥ un perro con los par√°metros especificados.
      * @param nombreP es el nombre del perro - nombreP != null
      * @param razaP es la raza del perro - razaP != null
      * @param imagenP es la ruta a la imagen del perro - imagenP != null
@@ -77,7 +74,7 @@ public class Perro
     }
 
     // -----------------------------------------------------------------
-    // MÈtodos
+    // M√©todos
     // -----------------------------------------------------------------
 
     /**
@@ -108,8 +105,8 @@ public class Perro
     }
 
     /**
-     * Retorna los puntos del perro en la exposiciÛn.
-     * @return Los puntos del perro en la exposiciÛn
+     * Retorna los puntos del perro en la exposici√≥n.
+     * @return Los puntos del perro en la exposici√≥n
      */
     public int darPuntos( )
     {
@@ -126,8 +123,8 @@ public class Perro
     }
 
     /**
-     * Compara dos perros seg˙n el nombre. <br>
-     * @param p es el perro contra el que se est· comparando - p !=null
+     * Compara dos perros seg√∫n el nombre. <br>
+     * @param p es el perro contra el que se est√° comparando - p !=null
      * @return Retorna 0 si los perros tienen el mismo nombre. <br>
      *         Retorna -1 si el perro p tiene una valor "MAYOR" para el nombre. <br>
      *         Retorna 1 si el perro p tiene una valor "MENOR" para el nombre. <br>
@@ -146,8 +143,8 @@ public class Perro
     }
 
     /**
-     * Compara dos perros seg˙n su raza. <br>
-     * @param p es el perro contra el que se est· comparando - p != null
+     * Compara dos perros seg√∫n su raza. <br>
+     * @param p es el perro contra el que se est√° comparando - p != null
      * @return Retorna 0 si los perros tienen la misma raza. <br>
      *         Retorna -1 si el perro p tiene una valor "MAYOR" para la raza. <br>
      *         Retorna 1 si el perro p tiene una valor "MENOR" para la raza. <br>
@@ -166,8 +163,8 @@ public class Perro
     }
 
     /**
-     * Compara dos perros seg˙n sus puntos. <br>
-     * @param p El perro contra el que se est· comparando - p!= null
+     * Compara dos perros seg√∫n sus puntos. <br>
+     * @param p El perro contra el que se est√° comparando - p!= null
      * @return Retorna 0 si los perros tienen los mismos puntos. <br>
      *         Retorna -1 si el perro p tiene una valor "MAYOR" para puntos . <br>
      *         Retorna 1 si el perro p tiene una valor "MENOR" para los puntos. <br>
@@ -183,8 +180,8 @@ public class Perro
     }
 
     /**
-     * Compara dos perros seg˙n su edad. <br>
-     * @param p El perro contra el que se est· comparando - p!=null
+     * Compara dos perros seg√∫n su edad. <br>
+     * @param p El perro contra el que se est√° comparando - p!=null
      * @return Retorna 0 si los perros tienen la misma edad. <br>
      *         Retorna -1 si el perro p tiene una valor "MAYOR" para la edad. <br>
      *         Retorna 1 si el perro p tiene una valor "MENOR" para la edad. <br>
@@ -201,7 +198,7 @@ public class Perro
 
     /**
      * Retorna una cadena con el nombre del perro
-     * @return La representaciÛn del perro en String
+     * @return La representaci√≥n del perro en String
      */
     public String toString( )
     {
